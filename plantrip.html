@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TRAVEL</title>
+  <link rel="website icon" href="/CG2.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+
+<style>
+  .container2 {
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+  }
+  .container {
+    margin-top: 40px;
+  }
+  footer{
+    width: 100%;
+    padding-left: 60px;
+  }
+  
+ #ico-none{
+  display: none;
+ }
+  #date-box {
+    display: flex;
+    gap: 30px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-item {
+    transition: transform 0.5s ease;
+  }
+  @media screen and (max-width:767px) {
+    #date-box {
+    flex-direction: column;
+    
+  }
+  #none{
+    display: none;
+  }
+  
+  }
+</style>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/CG-removebg-preview.png" alt="" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Flight + Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/hotel.html">Hotels & Homes</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="/plantrip.html">
+              Plan trip</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Transport
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-left" href="/flight.html">Flights</a></li>
+              <li><a class="dropdown-item" href="/bus.html">Buses</a></li>
+              <li><a class="dropdown-item" href="/train.html">Trains</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- plantrip -->
+  <div class="container">
+    <img src="/plantrip.jpg" alt="" srcset="" height="575" width="100%">
+  </div>
+  <!--  card -->
+
+  <div class="container">
+    <h1 class="featurette-heading fw-normal lh-1 text-center">Top destinations in World </h1>
+    <p>Location</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/23.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FRANCE </h5>
+            <p class="card-text">Using Digital Art & Culture as a medium to advocate for gender and LGBTQ equality. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/22.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MALAYSIA</h5>
+            <p class="card-text">Promote the importance and urgency of protecting the planet and sustainability..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/21.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DELHI</h5>
+            <p class="card-text">Providing education and opportunities for young artists, art practitioners and art
+              collectors to learn and connect with Art & Tech.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/6.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MUMBAI</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque perspiciatis magni laudantium quibusdam sunt! Tempore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/5.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">JAPAN</h5>
+            <p class="card-text">This is a longer card sectetur adipisicing elit. Animi labore libero, repudiandae assumenda ipsa asperiores nobis itaque explicabo perferendis obcaecati illo voluptate ex a eos, cumque vel tempore modi consequatur!.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/4.jpg" class="card-img-top" img-fluid mx-auto width="200" height="300" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHENNAI CENTER</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur.text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card slide -->
+  <div class="container mt-5" id="none">
+    <h1 class="text-center"> Amazing Trip </h1>
+    <p class="text-center">Explore the most popular trips by travelers</p>
+
+    <div id="cardSlider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://wallpapers.com/images/featured/new-york-city-5oaa14h4mw6w3o71.jpg" alt="New York">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://www.geographicguide.com/united-states/illinois/images/summer-chicago.jpg" alt="Trip">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0RFFNzbcwO_dCNLapyG9y2JuQAyatvX-Rw&s"
+                  alt="Another trip">
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFs75607nVu2LxP9pCJfN0WvbPLoN6Zd11Kw&s"
+                  alt="Another trip">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://media.istockphoto.com/id/1451754987/photo/new-york-city-skyline-at-sunset-with-brooklyn-bridge-and-lower-manhattan.webp?b=1&s=170667a&w=0&k=20&c=agn9dQq6tmElh4PL8dShiOOwyByL3NItbpeo2Lldktc="
+                  alt="Another trip">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://images5.alphacoders.com/373/373138.jpg"
+                  alt="Another">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#cardSlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" id="ico-none" aria-hidden="true"></span>
+        
+      </a>
+      <a class="carousel-control-next" href="#cardSlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" id="ico-none" aria-hidden="true"></span>
+       
+      </a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  
+  <div class="container" style="text-align: center;color: maroon;">
+    <h2>BOOK YOUR BEST TRIP IN AGODA</h2>
+  </div>
+  <div class="container2">
+    
+    
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-11 position-relative">
+        <input type="text" class="form-control" id="validationTooltip01" placeholder="Enter a destination or Property"
+          required width="100">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div id="date-box">
+        <div class="col-md-5 position-relative">
+          <input type="date" class="form-control" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-5 position-relative">
+          <input type="date" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+      </div>
+      <div id="date-box">
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip04" class="form-label">State</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Choose</option>
+          <option>TAMIL NADU</option>
+          <option>KARNATAKA</option>
+          <option>MAHARASHTRA</option>
+          <option>ANDHRA PRADESH</option>
+          <option>PONDICHEERY</option>
+        </select>
+        <div class="invalid-tooltip">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip05" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Please provide a valid zip.
+        </div>
+      </div>
+      </div>
+      <div class="col-">
+        <button class="btn btn-primary" type="submit" style="border: none;color: white ; background-color: black;"><a href="/book.html" class="text-decoration-none text-light">Submit form</a></button>
+      </div>
+    </form>
+  </div>
+
+  <!-- footer -->
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-body-tertiary">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <img src="/CG-removebg-preview.png" alt="" style="width: -webkit-fill-available;" srcset="">
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Contact</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Services</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">price</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">package</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">offers</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Tourist</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tourist guide</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tourist place</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Location</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
